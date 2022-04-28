@@ -1,0 +1,152 @@
+/* =================== Баннер на Апрель  =================== */
+
+.general-banner_stock.general-banner_april {
+    padding: 12px 0 13px;
+    background-image: url(./img/bg-vesennyaya-akciya.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.general-banner__april {
+    text-align: center;
+}
+
+.april__title {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: bold;
+    color: #c90c56;
+    text-transform: uppercase;
+    margin-bottom: -8px;
+}
+
+.april__subtitle {
+    font-size: 23px;
+    line-height: 30px;
+    color: #1c7988;
+    font-weight: bold;
+    margin-bottom: 29px;
+}
+
+.april__promotion {
+    font-size: 30px;
+    line-height: 30px;
+    color: #c90c56;
+    margin-bottom: 10px;
+}
+
+.april__achievements {
+    margin-bottom: 31px;
+    padding-top: 4px;
+    margin-left: -130px;
+}
+
+.april__achievements-container {
+    display: flex;
+    justify-content: center;
+    gap: 0 20px;
+}
+
+.april__achievement {
+    display: flex;
+    align-items: center;
+    padding-top: 4px;
+}
+
+.april__achievement-image {
+    margin-right: 16px;
+}
+
+.april-achievement__text-container {
+    text-align: left;
+}
+
+.text-container__title {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.text-container__text {
+    font-size: 16px;
+    line-height: 20px;
+    font-style: italic;
+    color: #ffffff;
+}
+
+.april__annotation {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #1c7988;
+}
+
+@media screen and (max-width: 1023px) {
+    .general-banner_stock.general-banner_april {
+        margin-top: 0;
+    }
+    .april__achievements {
+        display: flex;
+        justify-content: center;
+        padding-top: 0;
+        margin-right: -10px;
+    }
+    .april__achievements-container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .general-banner_stock.general-banner_april {
+        padding-bottom: 0;
+    }
+    .april__title {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: -12px;
+    }
+    .april__subtitle {
+        font-size: 16px;
+        line-height: 23px;
+        margin-bottom: 13px;
+    }
+    .april__promotion {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .april__achievements {
+        padding-top: 12px;
+        margin-left: 0;
+        margin-right: -15px;
+        margin-bottom: 25px;
+    }
+    .april__achievements-container {
+        gap: 11px 0;
+    }
+    .april__achievement-image {
+        max-width: 51px;
+        margin-right: 9px;
+    }
+    .april-achievement__text-container {
+        padding-top: 7px;
+    }
+    .text-container__title {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 2px;
+    }
+    .text-container__text {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .april__annotation {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+
+/* =================== Баннер на Апрель  =================== */
